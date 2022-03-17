@@ -7,7 +7,7 @@ app.use(function(req, res, next) {
     next();
 });
 
-app.get("/", (req, res) => res.send("Hello world with express!"));
+app.get("/", (req, res) => res.send("<h1>Hello world with express!</h1>"));
 
 app.listen(4200, '0.0.0.0',() => {
     console.log(`Example app listening at http://localhost:4200`);
