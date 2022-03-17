@@ -9,8 +9,10 @@ app.use(function(req, res, next) {
 
 app.get("/", (req, res) => res.send("Hello world with express!"));
 
-app.listen(4200);
-console.log("Server on port 4200");
+app.listen(4200, '0.0.0.0',() => {
+    console.log(`Example app listening at http://localhost:4200`);
+});
+
 
 /* standard server
     var server = http.createServer((req, res) => {
