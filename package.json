@@ -1,16 +1,8 @@
 {
-  "name": "nodejs-aws-learn",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "start": " node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "@middy/core": "^2.5.7",
+    "@middy/http-json-body-parser": "^2.5.7",
+    "aws-sdk": "^2.1097.0",
+    "uuid": "^8.3.2"
   }
 }
